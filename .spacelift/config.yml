@@ -7,3 +7,6 @@ tests:
   - name: Same test
     project_root: examples/default
     negative: true
+  - name: Same test #2
+    project_root: examples/default
+    negative: true
