@@ -4,3 +4,6 @@ module_version: 0.1.2
 tests:
   - name: "Default pet test"
     project_root: examples/default
+  - name: Same test
+    project_root: examples/default
+    negative: true
